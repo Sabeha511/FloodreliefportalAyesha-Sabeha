@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Relief Portal - Updates</title>
+    <link rel="stylesheet" href="updates-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript to display the current date and time dynamically
+        window.onload = function() {
+            const dateTime = new Date();
+            const dateElement = document.getElementById("current-date-time");
+            dateElement.innerHTML = dateTime.toLocaleString();
+        };
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="home.html">Flood Relief Portal</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="donation.html">Donations</a></li>
+                    <li><a href="shelters.html">Shelters</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Updates Section -->
+    <section class="updates-section">
+        <h1>Updates - Latest News and Alerts</h1>
+
+        <!-- Latest Flood Alerts -->
+        <div class="update-category">
+            <h2>Real-Time Flood Alerts</h2>
+            <p>Stay informed about urgent flood warnings and updates in Pakistan.</p>
+            <div class="alert-container">
+                <ul>
+                    <li><strong>Date & Time:</strong> <span id="current-date-time"></span></li>
+                    <li><strong>Affected Areas:</strong> Sindh, Punjab</li>
+                </ul>
+                <a href="https://www.pmd.gov.pk/" target="_blank">Visit Government Alert Page</a>
+                <form action="mailto:greenaeronautics511@gmail.com" method="post" enctype="text/plain">
+                    <label for="subscribe">Subscribe for regional updates:</label>
+                    <input type="email" id="subscribe" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Flood News & Developments -->
+        <div class="update-category">
+            <h2>Latest News on Floods</h2>
+            <p>Read the latest updates, reports, and news about flood situations in Pakistan: </p>
+            <div class="news-container">
+                <div class="news-item">
+                    <h3><a href="https://www.dawn.com/search?cx=016184311056644083324%3Aa1i8yd7zymy&cof=FORID%3A10&ie=UTF-8&q=flood+pakistan" target="_blank">Dawn (E-paper) Latest Information on Floods In Pakistan </a></h3>
+                    <p>Click on the above link to view latest information on Floods in Pakistan on Dawn News</p>
+                </div>
+                
+                <div class="news-item">
+                    <h3><a href="https://en.dailypakistan.com.pk/?s=flood+pakistan" target="_blank">Daily Pakistan Information on Floods</a></h3>
+                    <p>Click on the above link to view latest information on Floods in Pakistan on Daily Pakistan</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Community & Relief Efforts -->
+        <div class="update-category">
+            <h2>Ongoing Community Support</h2>
+            <p>See how communities and organizations are coming together to help flood victims.</p>
+            <div class="community-container">
+                <div>
+                    <h3><a href="volunteer-signup.html">Volunteer Opportunities</a></h3>
+                    <p>Join us in our relief efforts to assist flood victims. <a href="volunteer-signup.html">Sign up here</a>.</p>
+                </div>
+                <div>
+                    <h3>Donation Drives</h3>
+                    <p>Support ongoing campaigns for flood relief. <a href="donation.html">Donate now</a>.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Flood Preparedness & Tips -->
+        <div class="update-category">
+            <h2>Stay Prepared – Tips & Guides</h2>
+            <p>Get practical advice and guides for staying safe before, during, and after floods.</p>
+            <div class="tips-container">
+                <ul>
+                    <li><a href="build-emergency-kit.html">How to Build an Emergency Kit</a></li>
+                    <li><a href="securing-home.html">Securing Your Home Before a Flood</a></li>
+                    <li><a href="post-flood-recovery.html">Post-Flood Recovery Checklist</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Government and Emergency Notices -->
+        <div class="update-category">
+            <h2>Official Announcements & Notices</h2>
+            <p>Stay updated with the latest directives from government and emergency services.</p>
+            <div class="notice-container">
+                <div>
+                    <strong>Notice:</strong> Immediate evacuation advised for Swat region.
+                </div>
+                <a href="https://www.ndma.gov.pk/" target="_blank">Visit NDMA Official Site</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Flood Relief Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

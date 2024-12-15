@@ -1,0 +1,100 @@
+﻿/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #f0f5f9; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #34495e; /* Dark blue-grey color */
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    input:focus, textarea:focus {
+        border-color: #2980b9; /* Blue border color */
+        box-shadow: 0 0 8px rgba(41, 128, 185, 0.3);
+    }
+
+textarea {
+    resize: vertical;
+}
+
+button.submit-btn {
+    padding: 15px 30px;
+    background-color: #2980b9; /* Blue color for the button */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+    button.submit-btn:hover {
+        background-color: #3498db; /* Lighter blue on hover */
+    }
+
+    button.submit-btn:active {
+        background-color: #1f618d; /* Darker blue when clicked */
+    }
+
+    button.submit-btn:disabled {
+        background-color: #bdc3c7;
+        cursor: not-allowed;
+    }

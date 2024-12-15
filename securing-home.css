@@ -1,0 +1,74 @@
+﻿/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #2C3E50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+    color: #34495E;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+    ul li {
+        background-color: #2980B9;
+        color: white;
+        font-size: 1.1em;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        ul li:hover {
+            background-color: #3498DB;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #7F8C8D;
+}
+
+    footer a {
+        text-decoration: none;
+        color: #2980B9;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }

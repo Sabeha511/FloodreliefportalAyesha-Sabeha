@@ -1,0 +1,72 @@
+﻿/* securing-home.css */
+
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #eef2f3; /* Soft grayish background for a clean look */
+    color: #444; /* Dark gray text for better readability */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* Improve line spacing */
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5em;
+    color: #007acc; /* Bright blue color for headers */
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Make it more impactful */
+    letter-spacing: 2px; /* Wider letters for a modern touch */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px; /* Increased bottom margin for better spacing */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the list */
+}
+
+li {
+    background-color: #ffffff; /* White background for list items */
+    margin: 10px 0;
+    padding: 15px; /* More padding for comfort */
+    border-radius: 8px; /* Smooth corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+    li:hover {
+        transform: scale(1.02); /* Slightly enlarge on hover */
+    }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Slightly smaller on small screens */
+    }
+
+    p {
+        font-size: 1em; /* Adjust paragraph size */
+    }
+
+    li {
+        font-size: 0.95em; /* Smaller list items */
+    }
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777; /* Subtle text color */
+}

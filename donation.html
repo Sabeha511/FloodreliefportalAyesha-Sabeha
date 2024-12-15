@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Relief Portal - Donate</title>
+    <link rel="stylesheet" href="donation-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="home.html">Flood Relief Portal</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="donation.html">Donations</a></li>
+                    <li><a href="shelters.html">Shelters</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Sliding Images and Overlay Text -->
+    <div class="hero-slider">
+        <div class="overlay">
+            <h1>Make a Difference</h1>
+            <p>You can donate through the following verified payment method:</p>
+            <h3>Payment Method: <span>SadaPay</span></h3>
+            <p><strong>Account Number:</strong> 03214513135</p>
+            <h4>For Queries, Contact:</h4>
+            <p><strong>Main Contact:</strong> 03237323205</p>
+            <p><strong>Email:</strong> <a href="mailto:inaayat.ngo@gmail.com">inaayat.ngo@gmail.com</a></p>
+        </div>
+        <div class="slides">
+            <div class="slide" style="background-image: url('inayaat 1 img.jpeg');"></div>
+
+            <div class="slide" style="background-image: url('inayaat 2 img.JPG');"></div>
+
+            <div class="slide" style="background-image: url('inayaat 3 img.JPG');"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Flood Relief Portal. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Slider -->
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
+
+        function startSlider() {
+            setInterval(() => {
+                slides.forEach((slide, index) => {
+                    slide.style.transform = `translateX(${(index - currentSlide) * 100}%)`;
+                });
+                currentSlide = (currentSlide + 1) % slides.length;
+            }, 5000); // Change slide every 5 seconds
+        }
+
+        startSlider();
+    </script>
+</body>
+</html>
